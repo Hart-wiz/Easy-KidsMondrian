@@ -1,0 +1,50 @@
+/*..............containers...........*/
+.frame {
+  background-color: rgb(109, 60, 1);
+  padding: 0.8rem;
+  width: fit-content;
+  margin-left: 3rem;
+}
+.container {
+  background-color: black;
+  width: 400px;
+  height: 550px;
+  padding: 0.5rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 2.8fr 1fr 0.2fr;
+  grid-template-rows: 1fr 0.1fr 0.8fr 2fr;
+}
+/*................layers................*/
+
+.layer1 {
+  background-color: white;
+  display: flex;
+  align-items: end;
+  padding-left: 66%;
+}
+
+.layer2 {
+  background-color: white;
+  grid-row: span 2;
+  grid-column: span 2;
+  display: flex;
+  align-items: end;
+}
+.layer3 {
+  background-color: white;
+  grid-row: span 2;
+  padding-left: 57.5%;
+}
+.layer4 {
+  background-color: white;
+  grid-row: span 2;
+}
+.layer5 {
+  background-color: white;
+  grid-row: span 2;
+}
+.layer6 {
+  background-color: white;
+  padding-left: 57.5%;
+}
